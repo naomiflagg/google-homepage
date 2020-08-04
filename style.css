@@ -1,0 +1,158 @@
+body {
+    font-family: arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    font-size: 13px;
+    text-decoration: none;
+}
+
+#left-nav {
+    margin: 7px 0 0 10px;
+}
+
+#left-nav a {
+    padding-left: 15px;
+    color: #000;
+    opacity: 0.75;
+}
+
+#left-nav a:hover{
+    text-decoration: underline;
+}
+
+#right-nav {
+    padding: 0 30px 0 30px;
+    margin-top: 7px;
+}
+
+#right-nav .right-nav-item {
+    padding-right: 15px;
+    color: rgba(0,0,0,0.87);
+}
+
+#right-nav .right-nav-item:hover {
+    text-decoration: underline;
+    opacity: 0.85
+}
+
+#menu-logo img {
+    vertical-align: middle;
+    padding-right: 15px;
+}
+
+#sign-in {
+    color: #fff;
+    background-color: rgba(0,0,0,0);
+    background-image: -webkit-linear-gradient(top, rgb(67, 135, 253), rgb(70, 131, 234));
+    font-weight: bold;
+    border: 1px solid #4285f4;
+    padding: 6px 12px;
+    line-height: 28px;
+    border-radius: 2px;
+    margin-right: 3px;
+}
+
+#logo img {
+    display: block;
+    padding: 109px 0 35px 0;
+    height: 92px;
+    width: 272px;
+    margin: auto;
+}
+
+#search-bar {
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    margin: auto;
+    width: 582px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+}
+
+#magnifier {
+    padding: 0 13px 0 14px;
+    height: 20px;
+    opacity: 0.7;
+}
+
+textarea {
+    font-size: 16px;
+    width: 487px;
+    height: 16px;
+    border: none;
+    color: rgba(0, 0, 0, 0.87);
+    font-weight: 400;
+    outline: none;
+    resize: none;
+    font-family: arial, sans-serif;
+}
+
+#microphone {
+    padding: 0 14px 0 13px;
+}
+
+#microphone img {
+    height: 20px;
+    vertical-align: middle;
+}
+
+#search-buttons {
+    text-align: center;
+    padding-top: 18px;
+}
+
+#search-buttons a {
+    display: inline-block;
+    padding: 0 16px;
+    margin: 11px 4px;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  color: #5F6368;
+  font-size: 14px;
+  line-height: 27px;
+    text-decoration: none;
+}
+
+#search-buttons a:hover {
+    border: 1px solid #c6c6c6;
+}
+
+#footer-div {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+    font-size: 14px;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    width: 100%;
+}
+
+footer a {
+    color: #5f6368;
+    padding-left: 27px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+#bottom-right {
+    margin-right: 27px;
+}
